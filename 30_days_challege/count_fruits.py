@@ -17,3 +17,9 @@ def count_fruits(fruits):
             fruit_count[fruit] = 1
             
     return fruit_count
+
+# Example usage
+if __name__ == "__main__":
+    fruits = ["apple", "banana", "orange", "apple", "orange", "banana", "apple"]
+    result = count_fruits(fruits)
+    print(result)  # Output: {'apple': 3, 'banana': 2, 'orange': 2}def filter_odd_numbers(numbers: list[int]) -> list[int]:
